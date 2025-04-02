@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Navegación</title>
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#atributos-css">Atributos CSS</a></li>
+        </ul>
+    </nav>
+
+    <!-- Secciones del contenido -->
+    <section id="inicio">
+        <h1>Inicio</h1>
+        <p>Bienvenido, En esta pag web encontraras acerca de los lenguajes 
+            "CSS","JavaScript" y los atributos en "CSS",disfruta.</p>
+    </section>
+
+    <section id="css">
+        <h1>CSS</h1>
+        <p><H3>Que es?</H3></p>
+        <p>CSS (Cascading Style Sheets) es un lenguaje de diseño gráfico que 
+            se utiliza para definir la apariencia de los sitios web. Permite controlar 
+            el color, la fuente, la posición, las animaciones y los efectos 
+            visuales de los elementos de una página web. </p>
+        <a href="https://lenguajecss.com/">
+            <img src="Imagenes/logocss.png" alt="Imagen CSS">
+        </a>
+    </section>
+
+    <section id="javascript">
+        <h1>JavaScript</h1>
+        <p><H3>Que es?</H3></p>
+        <p>JavaScript es un lenguaje de programación que los desarrolladores
+             utilizan para hacer páginas web interactivas. Desde actualizar 
+             fuentes de redes sociales a mostrar animaciones y mapas
+              interactivos, las funciones de JavaScript pueden mejorar 
+              la experiencia del usuario de un sitio web.</p>
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+            <img src="Imagenes/JavaScript-logo.png" alt="imagen aqui">
+        </a>
+    </section>
+
+    <section id="atributos-css">
+        <h1>Atributos CSS</h1>
+        <p><H3>Que es?</H3></p>
+        <p>Los atributos en CSS son propiedades que se le
+             asignan a un elemento HTML para proporcionar 
+             información adicional. Se pueden usar para aplicar
+              estilos a elementos basados en los atributos que
+               contienen. </p>
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS/Attribute_selectors">
+            <img src="Imagenes/atributos-css.jpg" alt="Atributos">
+        </a>
+        <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>nombre</th>
+                    <th>descripcion</th>
+                    <th>Valores posibles</th>
+                    <th>Ejemplo de uso</th>
+                    <th>Imagen representativa</th>
+                    <th>Fuente de informacion</th>
+                </tr>
+                <tr>
+                    <th>Font-size</th>
+                    <th>Define el tamaño del texto 
+                        en un elemento.</th>
+                    <th><li>Absolutos: xx-small, x-small, small, medium, large, x-large, xx-large.</li>
+
+                        <li>Relativos: larger, smaller.</li>
+                        
+                        <li>Medidas específicas:</li>
+                        <ul><li>px (píxeles, fijo).</li>
+                            <li>em (relativo al tamaño de la fuente del elemento padre).</li>
+                            <li>rem (relativo al tamaño de la fuente del html).</li>
+                            <li>% (porcentaje relativo).</li>
+                            <li>vw (porcentaje del ancho de la ventana).</li>
+                           </ul></th>
+                    <th>Cambiar el tamaño de la letra,definir el tamaño,
+                         doblar el tamaño base, crear 
+                         un tamaño relativo dependiendo
+                          del html</th>
+                    <th><img src="Imagenes/font-size.png" alt="Imagen Font size"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/font-size target="_blank">MDN - font-size</a></th>
+                </tr>
+                <tr>
+                    <th>Border-Radius</th>
+                    <th>Permite redondear las esquinas de un elemento.</th>
+                    <th><li>0px (sin bordes redondeados).</li>
+
+                        <li>px, % (tamaño en píxeles o porcentaje).</li>
+                        
+                        <li>border-radius: 50%; (forma circular).</li>
+                        </th>
+                    <th>Cambiar las esquinas ligeramente y redondearlas, asi mismo redondear los bordes de las imagenes</th>
+                    <th><img src="Imagenes/border-radius.jpeg" alt="Imagen border-radius"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius target="_blank">MDN - border-radius</a></th>
+                </tr>
+                <tr>
+                    <th>Display</th>
+                    <th>Controla cómo se muestran los elementos en la página</th>
+                    <th><li>block (Elemento ocupa toda la línea).</li>
+                        <li>inline (Elemento ocupa solo el contenido).</li>                 
+                        <li>inline-block (Mezcla de inline y block).</li>
+                        <li>none (Oculta el elemento).</li>
+                        </th>
+                    <th>Convertir el span en un bloque</th>
+                    <th><img src="Imagenes/Display.jpg" alt="Imagen display"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/display target="_blank">MDN - display</a></th>
+                </tr>
+                <tr>
+                    <th>Flexbox</th>
+                    <th>Flexbox permite organizar elementos dentro de un contenedor de forma flexible.</th>
+                    <th><li>display: flex; (Activa Flexbox en el contenedor).</li>
+                        <li>justify-content: (Controla alineación horizontal).</li>                 
+                        <li>align-items: (Controla alineación vertical).</li>
+                        </th>
+                    <th>Al usarlo podemos alinear los elementos dentro de un bloque y asi ubicarlos a nuestro gusto</th>
+                    <th><img src="Imagenes/flexbox.png" alt="Imagen Flexbox"></th>
+                    <th>Referencias:<a href=https://css-tricks.com/snippets/css/a-guide-to-flexbox/ target="_blank">CSS Tricks - Flexbox</a></th>
+                </tr>
+                <tr>
+                    <th>Position</th>
+                    <th>Controla cómo se posiciona un elemento en la página.</th>
+                    <th><li>static (Valor por defecto, posición normal).</li>
+                        <li>relative (Relativo a su posición original).</li>                 
+                        <li>absolute (Relativo al contenedor padre con position: relative;).</li>
+                        <li>fixed (Permanente en la pantalla, incluso al hacer scroll).</li>
+                        <li>sticky (Se mantiene fijo hasta que se desplaza fuera de su contenedor).</li>
+                        </th>
+                    <th>Ubicar a gusto la ubicacion del elemento, su tamaño, 
+                        su distancia de ciertas partes de la pag y cuanto espacio ocupa, por ejemplo 
+                        centrar un elemento o ponerlo muy cerca del lado derecho</th>
+                        <th><img src="Position.png" alt="Imagen Position"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/position target="_blank">MDN - position</a></th>
+                </tr>
+                <tr>
+                    <th>box-shadow</th>
+                    <th>Agrega una sombra a los bordes de un elemento.</th>
+                    <th><li>none (Sin sombra).</li>
+                        <li>X Y Desenfoque Expansión Color.</li>                 
+                        </th>
+                    <th>Definir el tamaño de la sombra de ciertos elemntos y asi mismo un nivel de desenfoque a nuestro gusto</th>
+                    <th><img src="Imagenes/box shadow.webp" alt="Imagen box shadow"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow target="_blank">MDN - box-shadow</a></th>
+                </tr>
+                <tr>
+                    <th>overflow</th>
+                    <th>Controla qué pasa cuando un contenido es más grande que su contenedor.</th>
+                    <th><li>visible (El contenido se muestra fuera del contenedor).</li>
+                        <li>hidden (Oculta el contenido que se sale del contenedor)</li>     
+                        <li>scroll (Agrega barras de desplazamiento).</li>   
+                        <li>auto (Muestra barras de desplazamiento solo cuando es necesario).</li>               
+                        </th>
+                    <th>Manejamos el contenido que no entra en su contenedor ya que tiene un tamaño mayor y asi mantenemos un control en la pag web, pudiendo esconderlo o mostrandolo de todas formas</th>
+                    <th><img src="Imagenes/overflow.png" alt="Imagen overflow"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/overflow target="_blank">MDN - overflow</a></th>
+                </tr>
+                <tr>
+                    <th>z-index</th>
+                    <th>Controla qué elemento se coloca encima de otro.</th>
+                    <th><li>Un número (z-index: 1; → Se superpone sobre z-index: 0;).</li>
+                        <li>auto (Orden normal de la página).</li>              
+                        </th>
+                    <th>ubica los elemntos en el plano z, se usa para cuando necesitamos que un elemento este por encima de otro</th>
+                    <th><img src="Imagenes/z-index.png" alt="Imagen z-index"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/z-index target="_blank">MDN - z-index</a></th>
+                </tr>
+                <tr>
+                    <th>opacity</th>
+                    <th>Define la opacidad de un elemento.</th>
+                    <th><li>1 (100% visible).</li>
+                        <li>0.5 (50% transparente).</li>    
+                        <li>0 (Totalmente invisible).</li>     
+                        </th>
+                    <th>Lo usamos para cuando necesitamos que un elemento sea un poco mas transparente o simplemente invisible</th>
+                    <th><img src="Imagenes/Opacity.png" alt="Imagen opacity"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/opacity target="_blank">MDN - opacity</a></th>
+                </tr>
+                <tr>
+                    <th>margin y padding</th>
+                    <th>
+                        <li>margin: Controla el espacio fuera del elemento.</li>
+                        <li>padding: Controla el espacio dentro del elemento.</li>
+                    </th>
+                    <th><li>margin: 10px; (Mismo margen en todos los lados).</li>
+                        <li>margin: 10px 20px; (Arriba/abajo 10px, izquierda/derecha 20px).</li>    
+                        <li>padding: 5px 10px 15px 20px; (Arriba, derecha, abajo, izquierda).</li>     
+                        </th>
+                    <th>
+                        <li>Usamos el margin cuando necesitamos cambiar ciertas
+                         distancias de nuestro elemento respecto a lo que esta fuera de este</li>
+                        <li>usamos el padding para controlar las distancias dentro de
+                             nuestro elemento y asi mantener un control total de nuestra pag
+                            y la ubicacion de lo que agregamos</li>
+                    </th>
+                    <th><img src="Imagenes/margin-padding.jpeg" alt="Imagen margin-padding"></th>
+                    <th>Referencias:
+                        <li><a href=https://developer.mozilla.org/en-US/docs/Web/CSS/margin target="_blank">MDN - margin </a></li>
+                        <li><a href=https://developer.mozilla.org/en-US/docs/Web/CSS/padding target="_blank">MDN - padding</a></li>
+                    </th>
+                </tr>
+                <tr>
+                    <th>text-align</th>
+                    <th>Define la alineación del texto dentro de un elemento.</th>
+                    <th><li>left (Alineado a la izquierda, por defecto).</li>
+                        <li>right (Alineado a la derecha).</li>    
+                        <li>center (Centrado).</li>     
+                        <li>justify (Justifica el texto para que ocupe todo el ancho disponible).</li>
+                        </th>
+                    <th>
+                        La usamos para mover nuestro texto a nuestro gusto, ubicarlo en cualquier parte del renglon</th>
+                        <th><img src="Imagenes/text-align.png" alt="Imagen text-align"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/text-align target="_blank">MDN - text-align </a>
+                </tr>
+                <tr>
+                    <th>background-image</th>
+                    <th>Permite establecer una imagen como fondo de un elemento.</th>
+                    <th><li>none (Sin imagen de fondo).</li>
+                        <li>url('imagen.jpg') (Imagen de fondo).</li>    
+                        </th>
+                    <th>Para cuando necesitamos una imagen sin embargo no es el tema principal, entonces se ubica en el fondo 
+                        para no usarla de manera directa
+                    </th>
+                    <th><img src="Imagenes/background-image.png" alt="Imagen background-image"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/background-image target="_blank">MDN - background-image</a>
+                </tr>
+                <tr>
+                    <th>cursor</th>
+                    <th>Cambia el cursor cuando pasa sobre un elemento.</th>
+                    <th><li>default (Cursor normal).</li>
+                        <li>pointer (Cursor de mano, útil para botones).</li>   
+                        <li>text (Cursor de selección de texto).</li> 
+                        <li>wait (Cursor de "cargando").</li>
+                        </th>
+                    <th>Lo usamos para cuando necesitamos la atencion del usuario sobre cierto elemento, asi cuando pasa por ese elemento 
+                        el cursor cambia y llama su atencion.</th>
+                        <th><img src="Imagenes/cursor.png" alt="Imagen Cursor"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/cursor target="_blank">MDN - cursor</a>
+                </tr>
+                <tr>
+                    <th>visibility</th>
+                    <th>Controla si un elemento es visible o no.</th>
+                    <th><li>visible (Se muestra normalmente).</li>
+                        <li>hidden (Oculta el elemento, pero sigue ocupando espacio).</li>   
+                        </th>
+                    <th>Para cuando necesitamos que cierto elemento no desaparezca pero si deje de ser visible</th>
+                    <th><img src="Imagenes/visibility.webp" alt="Imagen visibility"></th>
+                    <th>Referencias:<a href=https://developer.mozilla.org/en-US/docs/Web/CSS/visibility target="_blank">MDN - visibility</a>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    </section>
+
+</body>
+</html>
+
