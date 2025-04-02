@@ -163,4 +163,29 @@ table{
     img {
         width: 90%; /* Ocupa casi todo el ancho en pantallas muy pequeñas */
     }
+      /* 🔹 TABLA RESPONSIVA */
+    .table-container {
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+    }
+
+    table {
+        font-size: 14px; /* Reduce el tamaño de fuente en móviles */
+        min-width: 400px; /* Ajusta el tamaño mínimo */
+    }
+
+    /* 🔹 IMÁGENES RESPONSIVAS */
+    img {
+        width: 80%; /* Ajusta las imágenes al 80% del ancho de la pantalla */
+        max-width: 300px; /* Evita que sean demasiado grandes */
+    }
+
+    /* 🔹 TITULOS Y TEXTOS */
+    h1 {
+        font-size: 22px; /* Reduce el tamaño de los títulos */
+    }
+
+    p {
+        font-size: 16px; /* Hace el texto más legible en móviles */
+    }
+    
 }
